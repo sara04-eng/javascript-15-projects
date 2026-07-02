@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h2>Countdown Timer</h2>
+    <form id="date-form">
+      <label for="date-picker">Select a target date:</label>
+      <input type="date" id="date-picker">
+      <button type="submit" class="btn">Set</button>
+    </form>
+    <div class="countdown" id="countdown">
+      <div class="countdown-el">
+        <h3 id="days">0</h3>
+        <p>days</p>
+      </div>
+      <div class="countdown-el">
+        <h3 id="hours">0</h3>
+        <p>hours</p>
+      </div>
+      <div class="countdown-el">
+        <h3 id="minutes">0</h3>
+        <p>minutes</p>
+      </div>
+      <div class="countdown-el">
+        <h3 id="seconds">0</h3>
+        <p>seconds</p>
+      </div>
+    </div>
+    <p id="message"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

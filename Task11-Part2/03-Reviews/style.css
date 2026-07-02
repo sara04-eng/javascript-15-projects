@@ -1,0 +1,78 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Segoe UI', Arial, sans-serif;
+  background:#f4f4f4;
+}
+.review{
+  background:#fff;
+  padding:2rem 2.5rem;
+  border-radius:0.7rem;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  max-width:400px;
+  text-align:center;
+}
+.img-container{
+  margin-bottom:1rem;
+}
+#avatar{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background:#4b6cb7;
+  color:#fff;
+  font-size:1.75rem;
+  font-weight:bold;
+}
+#author{
+  text-transform:uppercase;
+  margin-bottom:0.25rem;
+  letter-spacing:1px;
+}
+#job{
+  color:#4b6cb7;
+  margin-bottom:0.75rem;
+  font-weight:600;
+}
+#info{
+  color:#555;
+  line-height:1.5;
+  margin-bottom:1.25rem;
+}
+.button-container{
+  display:flex;
+  justify-content:center;
+  gap:1.25rem;
+  margin-bottom:1rem;
+}
+.button-container button{
+  border:none;
+  background:#eee;
+  width:2.5rem;
+  height:2.5rem;
+  border-radius:50%;
+  cursor:pointer;
+  font-size:1rem;
+  transition:background 0.3s ease;
+}
+.button-container button:hover{
+  background:#4b6cb7;
+  color:#fff;
+}
+.random-btn{
+  border:none;
+  background:#333;
+  color:#fff;
+  padding:0.6rem 1.25rem;
+  border-radius:1rem;
+  cursor:pointer;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  font-size:0.8rem;
+}
